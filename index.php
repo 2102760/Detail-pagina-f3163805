@@ -60,7 +60,7 @@
                         <tr>
                             <td>${row['title']}</td>
                             <td>${row['rating']}</td>
-                            <td><a href="serie.php?id=${row['id']}">Meer info</a></td>
+                            <td><a href="series.php?id=${row['id']}">Meer info</a></td>
                         </tr>
                     EOT;
                 }
@@ -85,7 +85,7 @@
                             <tr>
                                 <td>${row['title']}</td>
                                 <td>${row['duur']}</td>
-                                <td><a href="film.php?id=${row['id']}">Meer info</a></td>
+                                <td><a href="films.php?id=${row['id']}">Meer info</a></td>
                             </tr>
                         EOT;
             }
